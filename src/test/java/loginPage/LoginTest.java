@@ -1,34 +1,13 @@
 package loginPage;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest {
-	
-	public static WebDriver driver;
-	
-	@BeforeSuite
-	public void setUp() {
-	driver = new FirefoxDriver();
-	}
-	
-	@Test
-	public void doLogin() {
-		
-		driver.get("http://gmail.com");
-		driver.findElement(By.id("Email")).sendKeys("trainer@way2automation.com");
-		driver.findElement(By.id("Passwd")).sendKeys("sdss");
-		driver.findElement(By.id("Signin")).click();
-		
-	}
-	
-	@AfterSuite
-	public void tearDown() {
-	driver.quit();
-	}
-
+ 
+ public static void main(String[] args) {
+ String exePath = "F:\\chromedriver.exe";
+ System.setProperty("webdriver.chrome.driver", exePath);
+ WebDriver driver = new ChromeDriver();
+ driver.get("http://toolsqa.com/automation-practice-form/");
+ }
 }
