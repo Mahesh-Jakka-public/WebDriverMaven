@@ -27,7 +27,7 @@ public class LoginTest {
 		Thread.sleep(5000);
 		driver.findElement(By.name("password")).sendKeys("sdss");
 		Thread.sleep(1000);
-		
+		System.out.println("password");
 		
 		
 	}
