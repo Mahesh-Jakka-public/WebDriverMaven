@@ -31,6 +31,13 @@ public class LoginTest {
 		
 		
 	}
+
+	@Test
+	public void print(){
+	
+	System.out.println("Method Printed");
+
+	}
 	
 	@AfterTest
 	public void tearDown() {
