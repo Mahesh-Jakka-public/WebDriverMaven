@@ -15,7 +15,7 @@ public class LoginTest {
 	public void setUp()  {
 	System.setProperty("webdriver.chrome.driver", "F:\\SeleniumJars\\chromedriver.exe");
 	driver = new ChromeDriver();
-	  }
+	   }
 	
 	@Test
 	public void doLogin() throws InterruptedException {
