@@ -8,5 +8,5 @@ public class HomePage {
 	public void HomePage() {
 	
 	System.out.println("HomePage");
-
+    System.out.println("BusinessPage");
 	}
