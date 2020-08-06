@@ -8,6 +8,6 @@ public class BasePage {
 	public void BasePage() {
 	
 	System.out.println("Base Page");
-    
+    System.out.println("Print Statement");
 		
 	}
