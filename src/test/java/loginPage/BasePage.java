@@ -11,5 +11,7 @@ public class BasePage {
 
 	System.out.println("Print");
     
+	System.out.println("print Page");
+    
 		
 	}
